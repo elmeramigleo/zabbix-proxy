@@ -17,7 +17,7 @@ RUN \
                      zabbix-get \
                      zabbix-proxy-sqlite3 \
                      zabbix-sender && \
-  apt-get autoremove -y &&
+  apt-get autoremove -y && \
   mkdir -p /var/lib/sqlite
 
 # Copy scripts, Monit config and Zabbix config into place
