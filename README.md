@@ -13,7 +13,7 @@ docker run \
 	--name zabbix-proxy \
 	-d \
 	-p 10051:10051 \
-	safelinkinternet/smokeping \
+	safelinkinternet/zabbix-proxy \
   -z <zabbix server ip> \
   -s <proxy hostname>
 ```
